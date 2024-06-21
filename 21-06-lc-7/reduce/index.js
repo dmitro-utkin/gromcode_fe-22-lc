@@ -58,3 +58,4 @@ function calcExpenses(transactions) {
 // examples
 console.log(calcExpenses([25, 40, -74, 58, -100, -5])); // returns ==> 179
 console.log(calcExpenses([5000, 450])); // returns ==> 0
+console.log(calcExpenses([78, 5, 23, -42])); // returns ==> 0
