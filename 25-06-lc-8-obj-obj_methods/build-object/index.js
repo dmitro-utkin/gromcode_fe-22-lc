@@ -37,4 +37,14 @@ const keys = ['name', 'address', 'age'];
 const values = ['Vasyl', 'Ukraine', 34];
 const result = buildObject(keys, values); // ==> { name: 'Vasyl', address: 'Ukraine', age: 34 }
 
+const keys1 = ['name', 'address', 'age'];
+const values1 = ['Ivan', 'Ukraine', 40];
+const result1 = buildObject(keys, values); // ==> { name: 'Vasyl', address: 'Ukraine', age: 34 }
+
+const keys2 = ['name', 'address', 'age'];
+const values2 = ['Pavlo', 'Ukraine', 55];
+const result2 = buildObject(keys, values); // ==> { name: 'Vasyl', address: 'Ukraine', age: 34 }
+
 console.log(result);
+console.log(result1);
+console.log(result2);
