@@ -34,7 +34,9 @@
 const objIntersection = (firstObj, secondObj) =>
   Object.keys(firstObj).reduce(
     (result, key) =>
-      firstObj[key] === secondObj[key] ? { ...result, [key]: firstObj[key] } : result,
+      firstObj[key] === secondObj[key] 
+        ? { ...result, [key]: firstObj[key] } 
+        : result,
     {},
   );
 
