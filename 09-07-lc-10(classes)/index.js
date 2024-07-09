@@ -79,7 +79,7 @@ const student1 = new Student(1, 'Alice', 'Johnson', 'Math', 85);
 const student2 = new Student(2, 'Bob', 'Smith', 'Physics', 92);
 const student3 = new Student(3, 'Carol', 'Williams', 'Chemistry', 78);
 
-student2.getIsActive = false;
+// student2.getIsActive = false;
 const students = [student1, student2, student3];
 
 console.log(getTopStudent(students)); // ===> { id: 1, firstName: 'Alice', lastName: 'Johnson' }
