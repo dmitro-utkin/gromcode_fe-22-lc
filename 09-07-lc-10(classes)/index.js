@@ -84,3 +84,18 @@ const students = [student1, student2, student3];
 
 console.log(getTopStudent(students)); // ===> { id: 1, firstName: 'Alice', lastName: 'Johnson' }
 
+const student4 = new Student(1, 'Alice', 'Johnson', 'Math', 100);
+const student5 = new Student(2, 'Bob', 'Smith', 'Physics', 92);
+const student6 = new Student(3, 'Carol', 'Williams', 'Chemistry', 100);
+
+const students1 = [student4, student5, student6];
+
+console.log(getTopStudent(students1));
+
+const student7 = new Student(1, 'Alice', 'Johnson', 'Math', 70);
+const student8 = new Student(2, 'Bob', 'Smith', 'Physics', 92);
+const student9 = new Student(3, 'Carol', 'Williams', 'Chemistry', 100);
+
+const students2 = [student7, student8, student9];
+
+console.log(getTopStudent(students2));
