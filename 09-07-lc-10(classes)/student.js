@@ -14,6 +14,6 @@ export class Student extends User {
   }
 
   set setIsActive(value) {
-    return this.#isActive = value;
+    this.#isActive = value;
   }
 }
